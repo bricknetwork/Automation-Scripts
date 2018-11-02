@@ -1,0 +1,10 @@
+touch site.yaml
+mkdir roles
+mkdir roles/role1
+touch roles/role1/main.yaml
+mkdir ./roles/role1/tasks
+touch ./roles/role1/tasks/main.yaml
+mkdir ./roles/role1/templates
+touch ./roles/role1/templates/template.j2
+mkdir ./roles/role1/vars/
+touch ./roles/role1/vars/main.yml
